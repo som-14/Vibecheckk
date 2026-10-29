@@ -71,3 +71,4 @@ This builds and starts:
 - [x] **4 docs files written:** `docs/database.md`, `docs/system-design.md`, `docs/dp900.md`, `docs/security-stride.md` (and `infra/azure-architecture.md`)
 - [x] **no secrets in repo:** `.env.example` has placeholders only, `.env` and `jwt_rs256.key` excluded in `.gitignore`, no live cloud secrets committed
 - [x] **every file has a header comment:** All code, SQL, config, and markdown files start with a plain-English explanation
+# Vibecheckk
