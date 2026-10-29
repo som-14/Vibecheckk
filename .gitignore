@@ -1,0 +1,55 @@
+# This file specifies intentionally untracked files that Git should ignore.
+
+# Environment and secrets
+.env
+*.env.local
+*.key
+*.pem
+jwt_rs256*
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.venv/
+env/
+venv/
+ENV/
+.pytest_cache/
+
+# Node.js and Next.js
+node_modules/
+.next/
+out/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Database & Storage
+pgdata/
+*.sqlite3
+backend/storage/*.mp4
+!backend/storage/.gitkeep
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
